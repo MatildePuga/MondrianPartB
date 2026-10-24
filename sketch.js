@@ -20,13 +20,13 @@ function draw() {
   strokeWeight(1);
   rect(0, 0, workSizewidth, workSizeheight);
 
-  fill(229, 43, 18);
+  fill(random(200, 400), 43, 18);
   rect(0, 0, workSizewidth / 2.2, workSizeheight / 2.5);
 
-  fill(40, 52, 116);
+  fill(random(40, 60), 52, random(100, 150));
   rect(workSizewidth / 2.2, workSizeheight / 1.6, workSizewidth / 3.2, workSizeheight / 3.4);
 
-  fill(254, 213, 20);
+  fill(random(230, 255), random(200, 220), random(0, 20));
   rect(0, workSizeheight / 1.6, workSizewidth / 8, workSizeheight / 2.2);
 
 
